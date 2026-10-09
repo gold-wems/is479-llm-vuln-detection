@@ -1,0 +1,16 @@
+# Never commit secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Run outputs (keep them locally; commit chosen results on purpose)
+results_log.jsonl
+
+# Editor
+.idea/
+.vscode/
